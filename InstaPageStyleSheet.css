@@ -1,0 +1,9 @@
+﻿/*Styling for the div showing my instagram feed*/
+div {
+    padding: 20px;
+    position: absolute;
+    left: 300px;
+    width: 670px;
+    border: solid grey 1px;
+    box-shadow: 10px 10px 20px darkgrey;
+}

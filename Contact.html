@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Molly Candon</title>
+
+    <!--Link to style sheet for nav-->
+    <link rel="stylesheet"
+          type="text/css"
+          href="NavStyle.css" />
+
+    <!--Link to style sheet for the rest of the elements on this page-->
+    <link rel="stylesheet"
+          type="text/css"
+          href="ContactPageStyleSheet.css" />
+
+    <!--Link to JQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!--Link to JavaScript effects on this page-->
+    <script src="Contact.js"></script>
+
+</head>
+<body>
+
+    <!--Navagation bar-->
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            </br>
+            <li> <a href="About.html"> About</a> </li>
+            </br>
+            <li> <a href="PD.html"> Paintings and Drawings</a> </li>
+            </br>
+            <li> <a href="PPD.html"> Photography, Prints, and Design</a> </li>
+            </br>
+            <li> <a href="CF.html"> Costumes and Fashion</a> </li>
+            </br>
+            <li>Contact and Comments</li>
+            </br>
+            <li><a href="Insta.html">Instagram Feed</a></li>
+        </ul>
+    </nav>
+
+    <!--article to enter comments-->
+    <article>
+        <!--Form elements to get username and comment from user-->
+        <span>
+            Enter your username:
+            <input name="Username" id="username" type="text">
+        </span>
+        <span>
+            Enter your comment:
+            <input comment="Comment" id="comment" type="text">
+        </span>
+        <!--Button to add comments-->
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </article>
+
+    <!--Section to display the most recent comment-->
+    <section>
+        Most recent comment:
+        <ul id="myUL">
+            <li id="result">
+            </li>
+        </ul>
+    </section>
+
+    <!--div to click on for contact options-->
+    <div id="flip">Contact Molly Candon</div>
+
+    <!--Footer with image, email, and Instagram logo with link to Instagram-->
+    <footer id="panel">
+        <a style="color:black" onMouseOver="this.style.color='purple'" href="mailto:mollyjaynecandon@gmail.com">E-mail Molly Candon</a>
+        <a href="https://www.instagram.com/makesandpatterns/"><img id="insta" src="Instagram.png" alt="Instagram"></a>
+    </footer>
+
+</body>
+
+<!--JQuery to pull up contact details whendiv is clicked on-->
+<script>
+    $(document).ready(function () {
+        $("#flip").click(function () {
+            $("#panel").slideDown("slow");
+        });
+
+        comment()
+
+    });
+</script>
+
+</html>

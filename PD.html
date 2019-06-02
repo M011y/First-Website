@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Molly Candon Paintings and Drawings</title>
+
+    <!--Link to style sheet for Nav-->
+    <link rel="stylesheet"
+          type="text/css"
+          href="NavStyle.css" />
+
+    <!--Link to style sheet for header-->
+    <link rel="stylesheet"
+          type="text/css"
+          href="HeaderStyle.css" />
+
+    <!--Link to style sheet for section-->
+    <link rel="stylesheet"
+          type="text/css"
+          href="SectionStyle.css" />
+
+    <!--Link to JQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!--Link to Javascript for video effect-->
+    <script src="Video.js"></script>
+
+</head>
+<body>
+    <!--navagation bar-->
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            </br>
+            <li><a href="About.html">About</a></li>
+            </br>
+            <li>Paintings and Drawings</li>
+            </br>
+            <li><a href="PPD.html">Photography, Prints, and Design</a></li>
+            </br>
+            <li><a href="CF.html">Costumes and Fashion</a></li>
+            </br>
+            <li><a href="Contact.html">Contact and Comments</a></li>
+            </br>
+            <li><a href="Insta.html">Instagram Feed</a></li>
+        </ul>
+    </nav>
+
+    <!--header-->
+    <h1>
+        Paintings and Drawings
+    </h1>
+
+    <!--section with buttons and video-->
+    <section>
+        <!--play button that plays video on click-->
+        <button id="play" onclick="playVid()" type="button">Play Slideshow</button>
+        <!--pause button that pauses video on click-->
+        <button onclick="pauseVid()" type="button">Pause Slideshow</button><br>
+
+        <!--video source and size-->
+        <video id="Video" width="400">
+            <source src="PaintDraw.mp4" type="video/mp4">
+            Your browser does not support mp4 videos.
+        </video>
+
+        <!--JavaScript to play and pause video-->
+        <script>
+            var vid = document.getElementById("Video");
+
+            function playVid() {
+                vid.play();
+            }
+
+            function pauseVid() {
+                vid.pause();
+            }
+        </script>
+
+    </section>
+
+</body>
+</html>

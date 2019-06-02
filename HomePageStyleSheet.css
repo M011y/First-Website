@@ -1,0 +1,21 @@
+﻿/*styling and positioning for header on home page*/
+header {
+    padding: 20px;
+    color: dimgray;
+    font-family: 'Franklin Gothic Book';
+    position: absolute;
+    left: 300px;
+}
+
+/*styling and positioning for image on home page*/
+section {
+    position: absolute;
+    left: 322px;
+    top: 75px;
+}
+
+/*styling for image on home page*/
+img {
+    width: 750px;
+    height: auto;
+}

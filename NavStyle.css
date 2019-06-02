@@ -1,0 +1,31 @@
+﻿
+/*//styling form nav on all pages*/
+nav {
+    height: 320px;
+    width: 250px;
+    border-radius: 25px;
+    border: solid 1px grey;
+    float: left;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Book';
+    background-image: linear-gradient(rgba(0,50,250,0.2), white)
+}
+
+/*styling for text in Nav that isn't link (current page that you are on)*/
+ul {
+    color: dimgray;
+    list-style: none;
+}
+
+/*styling for text in Nav that is a link (all other pages that you are not surrently on)*/
+a {
+    color: dimgray;
+    text-decoration: none;
+}
+
+    /*styling for text in Nav that is a link, when hovered over (all other pages that you are not surrently on)*/
+    a:hover {
+        color: purple;
+    }
+

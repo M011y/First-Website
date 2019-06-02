@@ -1,0 +1,7 @@
+﻿/*styling for headers*/
+h1 {
+    color: darkgrey;
+    font-family: 'Franklin Gothic Book';
+    text-align: center;
+    text-shadow: 20px 12px 40px rgba(0,50,250,0.5);
+}

@@ -1,0 +1,44 @@
+﻿
+/*About section styling and positioning, text needs to be black so comes through image as grey*/
+#About {
+    padding: 20px;
+    color: black;
+    font-family: 'Franklin Gothic Book';
+    position: absolute;
+    left: 300px;
+    width: 670px;
+}
+
+/*Click text styling and positioning*/
+#Click {
+    padding: 20px;
+    color: dimgray;
+    font-size: small;
+    font-family: 'Franklin Gothic Book';
+    position: absolute;
+    left: 300px;
+    bottom: 50px;
+    width: 670px;
+}
+
+/*Click text styling and positioning*/
+#Click2 {
+    padding: 20px;
+    color: dimgray;
+    font-size: small;
+    font-family: 'Franklin Gothic Book';
+    position: absolute;
+    left: 300px;
+    bottom: 50px;
+    width: 670px;
+    display: none;
+}
+
+/*Image styling and positioning, opacity gives nice effect*/
+img {
+    margin-left: 20px;
+    margin-top: 20px;
+    opacity: 0.5;
+    border: solid grey 1px;
+    box-shadow: 10px 10px 20px darkgrey;
+}
