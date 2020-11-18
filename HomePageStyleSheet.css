@@ -4,7 +4,8 @@ header {
     color: dimgray;
     font-family: 'Franklin Gothic Book';
     position: absolute;
-    left: 300px;
+    left: 540px;
+    font-size: xx-large;
 }
 
 /*styling and positioning for image on home page*/
@@ -18,4 +19,14 @@ section {
 img {
     width: 750px;
     height: auto;
+}
+
+/*styling and positioning for paragraph on home page*/
+p {
+    padding: 20px;
+    color: dimgray;
+    font-family: 'Franklin Gothic Book';
+    position: absolute;
+    left: 300px;
+    top: 550px;
 }

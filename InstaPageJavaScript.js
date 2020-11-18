@@ -1,4 +1,5 @@
-﻿//Javascript to get and display my Instagram feed
+﻿
+//Javascript to get and display my Instagram feed
 $(document).ready(function (){
     var feed = new Instafeed({
         get: 'user',
